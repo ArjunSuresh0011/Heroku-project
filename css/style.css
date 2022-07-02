@@ -75,24 +75,55 @@ a{
 .showcase p{
   margin: 20px 0;
 }
-
-
-/*Utilitees*/
-
-.container{
-  max-width: 1100;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
+.showcase .grid{
+  overflow: visible;
+  grid-template-columns: 50% 50%;
+  padding: 0 20px;
+}
+.showcase-form{
+  position: relative;
+  top: 10px;
+  height: 400px;
+  width: 350px;
+  padding: 50px;
+  z-index: 100;
+  justify-self:flex-end;
+}
+.showcase-form .form-control{
+  margin:20px 0;
+}
+.showcase-form input[type="text"],
+.showcase-form input[type="email"]{
+  border: 0;
+  border-bottom: 1px solid var(--primary-color);
+  width: 100%;
+  padding:3px;
+  font-size: 16px;
+}
+.showcase-form input:focus{
+  outline: none;
 }
 
-.flex{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  height: 100%;
+.showcase::before,
+.showcase::after{
+  content: 'my name is arjun suresh ';
+  position:absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background-color:#fff;
+  -webkit-transform:skewY(-3deg);
+  -moz-transform:skewY(-3deg);
+  transform:skewY(-3deg);
 }
-.grid{
-  display: grid;
-  grid-template-columns:repeat(2 1fr);
+
+
+/*stats*/
+
+.stats{
+  padding: 100px;
 }
+
+
+
