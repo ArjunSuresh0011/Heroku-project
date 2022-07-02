@@ -50,6 +50,16 @@
     background-color: var(--light-color);
     color: #333;
   }
+  .bg-primary a,
+  .btn-primary a,
+  .bg-secondary a,
+  .btn-secondary a,
+  .bg-dark a,
+  .btn-dark a,
+  .bg-light a,
+  .btn-light a{
+    color:#fff;
+  }
 
   /*text size*/
 
@@ -75,9 +85,9 @@
 
   .container{
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0px auto;
     overflow: auto;
-    padding:0 40px;
+    padding:0px 40px;
   }
 
   .text-center{

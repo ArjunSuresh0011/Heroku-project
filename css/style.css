@@ -56,8 +56,13 @@ a{
   padding: 10px;
   margin:0 5px;
 }
+
+.navbar a{
+  transition: border-bottom 0.7s ease;
+}
+
 .navbar a:hover{
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
 }
 
 .navbar .flex{
@@ -109,7 +114,7 @@ a{
 
 .showcase::before,
 .showcase::after{
-  content: 'my name is arjun suresh ';
+  content: '';
   position:absolute;
   height: 100px;
   bottom: -70px;
@@ -147,6 +152,9 @@ a{
 .my-4{
   margin: 3rem 1rem 0 0;
 }
+.py-5{
+  padding: 20px;
+}
 .cli .grid{
   grid-template-columns: repeat(3,1fr);
   grid-template-rows: repeat(2,1fr);
@@ -173,6 +181,7 @@ a{
   text-align: center;
   margin:18px 10px 40px;
   transition: transform 0.2s ease-in;
+  cursor: pointer;
 }
 
 .language .card h4{
@@ -181,4 +190,10 @@ a{
 }
 .language .card:hover{
   transform:translateY(-15px);
+}
+.footer ul{
+  font-size: 16px;
+}
+.footer .social a{
+  margin: 0 10px;
 }
