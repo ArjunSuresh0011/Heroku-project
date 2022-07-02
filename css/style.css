@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
-  --primary-color:#fc4e03;
+  --primary-color:#990aec;
   --secondary-color:#d64101;
-  --dark-color:#601d00;
+  --dark-color:#3c0461;
   --light-color:#f1cdbd;
 }
 
@@ -152,6 +152,9 @@ a{
 .my-4{
   margin: 3rem 1rem 0 0;
 }
+.py-3{
+  padding: 10px;
+}
 .py-5{
   padding: 20px;
 }
@@ -191,6 +194,19 @@ a{
 .language .card:hover{
   transform:translateY(-15px);
 }
+
+/*Features*/
+
+.features-head img{
+  width: 200px;
+  justify-self: end;
+}
+
+
+
+
+/*Footer*/
+
 .footer ul{
   font-size: 16px;
 }
