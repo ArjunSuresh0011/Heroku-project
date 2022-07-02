@@ -2,6 +2,9 @@
 
 :root{
   --primary-color:#fc4e03;
+  --secondary-color:#d64101;
+  --dark-color:#8a2a00;
+  --primary-color:#f1cdbd;
 }
 
 *{
@@ -134,4 +137,25 @@ a{
 .stats .grid p{
   font-size: 20px;
   font-weight: bold ;
+}
+.my-1{
+  margin-top:1rem 0;
+}
+.my-4{
+  margin: 3rem 1rem 0 0;
+}
+.cli .grid{
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+}
+
+.cli .grid > *:first-child{
+  grid-column: 1 /span 2 ;
+  grid-row: 1 /span 2;
+}
+
+/*Cloud*/
+
+.cloud .grid{
+  grid-template-columns: 4fr,3fr;
 }
