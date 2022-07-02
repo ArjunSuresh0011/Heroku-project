@@ -33,6 +33,13 @@
     overflow: auto;
     padding:0 40px;
   }
+
+  .text-center{
+    text-align: center;
+  }
+
+  
+
   
   .flex{
     display: flex;
@@ -50,4 +57,22 @@
   }
   .grid-3{
     grid-template-columns: repeat(3,1fr);
+  }
+
+  /* margin */
+
+  .my-1{
+    margin-top:1rem 0;
+  }
+  .my-4{
+    margin: 3rem 1rem 0 0;
+  }
+  .cli .grid{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+  }
+
+  .cli .grid > *:first-child{
+    grid-column: 1 /span 2 ;
+    grid-row: 1 /span 2;
   }
