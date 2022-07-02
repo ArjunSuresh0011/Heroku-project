@@ -27,17 +27,49 @@
     transform: scale(.95);
   }
 
-  /*Background & bg color*/
+  /*Background & button color*/
 
-  .bg-primary,.btn-primary{
+  .bg-primary,
+  .btn-primary{
     background-color: var(--primary-color);
     color: #fff;
   }
-  
-  .bg-secondary,.btn-secondary{
+
+  .bg-secondary,
+  .btn-secondary{
     background-color: var(--secondary-color);
     color: #fff;
   }
+  .bg-dark,
+  .btn-dark{
+    background-color: var(--dark-color);
+    color: #fff;
+  }
+  .bg-light,
+  .btn-light{
+    background-color: var(--light-color);
+    color: #333;
+  }
+
+  /*text size*/
+
+  .lead{
+    font-size: 20px;
+  }
+  .sm{
+    font-size: 1rem;
+  }
+  .md{
+    font-size: 1.5rem;
+  }
+  .lg{
+    font-size: 2rem;
+  }
+  .xl{
+    font-size: 2.5rem;
+  }
+  
+  
 
 
 

@@ -3,8 +3,8 @@
 :root{
   --primary-color:#fc4e03;
   --secondary-color:#d64101;
-  --dark-color:#8a2a00;
-  --primary-color:#f1cdbd;
+  --dark-color:#601d00;
+  --light-color:#f1cdbd;
 }
 
 *{
@@ -141,6 +141,9 @@ a{
 .my-1{
   margin-top:1rem 0;
 }
+.my-2{
+  margin-top:2rem 0;
+}
 .my-4{
   margin: 3rem 1rem 0 0;
 }
@@ -158,4 +161,24 @@ a{
 
 .cloud .grid{
   grid-template-columns: 4fr,3fr;
+}
+
+/*Languages*/
+
+ .language .flex{
+  flex-wrap: wrap;
+}
+
+.language .card{
+  text-align: center;
+  margin:18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.language .card h4{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.language .card:hover{
+  transform:translateY(-15px);
 }
