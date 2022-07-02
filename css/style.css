@@ -4,7 +4,7 @@
   --primary-color:#990aec;
   --secondary-color:#d64101;
   --dark-color:#3c0461;
-  --light-color:#f1cdbd;
+  --light-color:#f3f3f3;
 }
 
 *{
@@ -201,7 +201,10 @@ a{
   width: 200px;
   justify-self: end;
 }
-
+.features-sub-head img{
+  width: 300px;
+  justify-self: flex-end;
+}
 
 
 
