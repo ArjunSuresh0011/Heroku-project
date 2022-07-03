@@ -17,9 +17,6 @@
     margin: 20px;
     transition: transform 1s ease;
   }
-  .card:hover{
-    transform: scaleY(0.95);
-  }
   
   .btn{
     display:inline-block;
@@ -42,7 +39,6 @@
   }
 
   /*Background & button color*/
-
   .bg-primary,
   .btn-primary{
     background-color: var(--primary-color);
@@ -105,7 +101,10 @@
     text-align: center;
   }
 
-  
+  /*Alert*/
+  .alert{
+    background-color: var(--light-color);
+  }
 
   
   .flex{
