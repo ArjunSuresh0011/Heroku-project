@@ -2,10 +2,10 @@
 
 .icon-color{
   color: var(--primary-color);
-  transition: transform 0.2s ease;
+  transition: transform 1s ease;
 }
 .icon-color:hover{
-  transform: rotateY(45deg);
+  transform: rotate(45deg);
 }
 
 .card{
@@ -15,7 +15,7 @@
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     padding: 20px;
     margin: 20px;
-    transition: transform 0.2s ease-in;
+    transition: transform 1s ease;
   }
   .card:hover{
     transform: scaleY(0.95);

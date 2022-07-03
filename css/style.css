@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 :root{
-  --primary-color:#990aec;
+  --primary-color:#a201ff;
   --secondary-color:#d64101;
-  --dark-color:#3c0461;
+  --dark-color:#220337;
   --light-color:#f3f3f3;
 }
 
@@ -240,6 +240,9 @@ a{
 }
 .footer .social a{
   margin: 0 10px;
+}
+.footer .icon-color{
+  color: #fff;
 }
 
 /*Tablet and under*/
