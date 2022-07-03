@@ -5,6 +5,8 @@
   --secondary-color:#d64101;
   --dark-color:#220337;
   --light-color:#fbfbfb;
+  --success-color:#51d04e;
+  --error-color:#ce3c3c;
 }
 
 *{
@@ -279,10 +281,13 @@ a{
   .showcase .grid,
   .stats .grid,
   .cli .grid,
-  .cloud .grid{
+  .cloud .grid,
+  .features-main .grid,
+  .docs-main .grid{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
+  
   .showcase{
     height: auto;
   }
@@ -296,6 +301,17 @@ a{
   .cli .grid > *:first-child{
     grid-column: 1;
     grid-row: 1;
+  }
+  .features-head,
+  .features-sub-head,
+  .docs-head{
+    text-align: center;
+  }
+
+  .features-head img,
+  .features-sub-head img,
+  .docs-head img{
+    justify-self: center;
   }
   
 }

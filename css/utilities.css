@@ -1,7 +1,7 @@
 /*Utilitees*/
 
 .icon-color{
-  color: var(--primary-color);
+  color: var(--dark-color);
   transition: transform 1s ease;
 }
 .icon-color:hover{
@@ -103,10 +103,31 @@
 
   /*Alert*/
   .alert{
-    background-color: var(--light-color);
+    background-color:bisque;
+    padding: 20px 10px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  .alert i{
+    margin-right: 15px;
+  }
+  .alert-success{
+    background-color: var(--success-color);
+    color: #fff;
+  }
+  .alert-error{
+    background-color: var(--error-color);
+    color: #fff;
   }
 
-  
+  code,
+  pre{
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+  }
+
+
   .flex{
     display: flex;
     justify-content:center;
